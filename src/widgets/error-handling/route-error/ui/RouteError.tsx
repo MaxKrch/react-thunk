@@ -1,4 +1,4 @@
-const ErrorPage = () => {
+const RouteError = () => {
     return(
         <div>
             ErrorPage
@@ -6,4 +6,4 @@ const ErrorPage = () => {
     )
 }
 
-export default ErrorPage;
+export default RouteError;
