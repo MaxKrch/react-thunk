@@ -3,14 +3,9 @@ import FilmSearch from "@/features/film-search";
 
 const Header = () => {
   return (
-    <header className="">
-      <div className="">
-        <AppNavigation />
-      </div>
-      
-      <div className="">
-        <FilmSearch />
-      </div>
+    <header className="flex flex-col gap-3 px-1 py-3">
+      <AppNavigation />
+      <FilmSearch />
     </header>
   );
 };

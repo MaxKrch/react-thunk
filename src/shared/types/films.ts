@@ -1,4 +1,4 @@
-export type FilmTypes = "movie" | "series" | "episode"
+import type { FilmType } from "@/shared/constants/film-search-types"
 
 export type FilmShort =  {
     Title: string,
@@ -41,7 +41,7 @@ export type Film = {
     imdbRating: number,
     imdbVotes: string,
     imdbID: string,
-    Type: FilmTypes,
+    Type: FilmType,
     DVD: string,
     BoxOffice: string,
     Production: string,

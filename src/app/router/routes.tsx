@@ -1,7 +1,7 @@
 import LoadingPage from "@/pages/loading-page/ui/LoadingPage";
 import MainPage from "@/pages/main-page";
 import NotFoundPage from "@/pages/not-found-page";
-import { APP_ROUTES } from "@/shared/consts/routes/app-routes";
+import { APP_ROUTES } from "@/shared/constants/routes/app-routes";
 import GlobalError from "@/widgets/error-handling/global-error";
 import RouteError from "@/widgets/error-handling/route-error";
 import AppLayout from "@/widgets/layout/app-layout/ui/AppLayout";
